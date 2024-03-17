@@ -1,6 +1,6 @@
 body{
     font-family: "Poppins",sans-serif;
-    background-color:#132743;
+    background-color:#081f37;
 
 }
 .container{
@@ -39,7 +39,7 @@ section.secondary {
 }
 
 header{
-    background-image: linear-gradient(rgba(20,45,76,0.6),rgba(20,45,76,0.4)), url("./img/19.jpg");
+    background-image: linear-gradient(rgba(46, 97, 160, 0.6),rgba(6, 14, 23, 0.4)), url("./img/19.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -186,7 +186,7 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
-    padding: 100px 0;
+    padding: 20px 0;
 }
 
 footer h3{
