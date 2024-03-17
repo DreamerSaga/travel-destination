@@ -88,19 +88,34 @@ main{
 }
 
 .img-responsive{
-    max-width: 100%;
+    width: 100%;
     display: block;
+    height: 100%;
 }
-.card .img-responsive {
-    max-width: 100%; 
-    height: 350px; /* This maintains aspect ratio */
-    display: block;
+
+.card {
+    background: white;
+    margin: 30px 0;
 }
 
 .card a{
     text-transform: uppercase;
     text-decoration: none;
     color: #272044;
+}
+
+.card-body {
+    padding: 30px;
+    margin-bottom: 30px
+}
+
+.card-header.grid{
+    grid-gap: 0;
+}
+
+.embed{
+    width: 100%;
+    aspect-ratio: 1/1;
 }
 
 main h2{
@@ -148,21 +163,7 @@ main p{
     text-align: justify;
 }
 
-.card {
-    background: white;
-    margin: 30px 0;
-}
-
-.card-body {
-    padding: 30px;
-    margin-bottom: 30px
-}
-
-/* .card-footer {
-    padding: 0 30px 30px;
-    text-align: center;
-}
-.btn {
+/* .btn {
     display: block;
     color: white;
     font-weight: 700;
@@ -174,19 +175,7 @@ main p{
     padding: 16px;
     background-color: #462cb3;
     text-decoration: none;
-  } */
-
-
-
-/* .scrolling-wrapper {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-  
-    .card {
-      display: inline-block;
-    }
-  } */
+  }  */
 
 footer{
     background-image: linear-gradient(rgba(20,45,76,0.8),rgba(20,45,76,0.8)), url("./img/16.jpg");
@@ -255,5 +244,12 @@ footer a{
     }
     section{
         padding: 30px;
+    }
+
+    .card-header img{
+        display: none;
+    }
+    .embed{
+        aspect-ratio: 16/9;
     }
 }
